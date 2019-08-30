@@ -1,0 +1,35 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equip="X-UA-Compatible" content="IE=edge">
+ 
+  <title>{{ site.title }} - {{ site.subtitle }}</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="{{ site.description }}">
+
+  <link rel="icon" href="/assets/img/favicon.ico" type="image/gif" sizes="16x16">
+  
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/custom-style.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand&display=swap">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+
+{% if jekyll.environment == "production" %}
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45575713-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-45575713-1');
+  </script>
+
+{% endif %}
+</head>

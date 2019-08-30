@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/walbinjr/walbinjr.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Build a free blog using devlopr jekyll and Github Pages
 
-### Markdown
+[![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
+![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Demo - [here](https://devlopr.netlify.com)
 
-```markdown
-Syntax highlighted code block
+## Build and Deploy a new blog using devlopr-jekyll theme using 3 Easy Steps - [Guide](https://devlopr.netlify.com/guides/2019/05/20/build-a-blog-using-devlopr-jekyll/)
 
-# Header 1
-## Header 2
-### Header 3
+## Screenshots:
 
-- Bulleted
-- List
+![Screenshot 1](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot1.png)
 
-1. Numbered
-2. List
+![Screenshot 2](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot2.png)
 
-**Bold** and _Italic_ and `Code` text
+![Screenshot 3](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot3.png)
 
-[Link](url) and ![Image](src)
+![Screenshot 4](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot4.png)
+
+
+# Run using Docker 
+
+```
+$ git clone 
+$ cd repo
+$ export JEKYLL_VERSION=3.8
+$ docker run --rm --volume="$PWD" -it jekyll/jekyll:$JEKYLL_VERSION jekyll build
+$ jekyll serve
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Licence
 
-### Jekyll Themes
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/walbinjr/walbinjr.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
