@@ -88,12 +88,12 @@ layout: default
         <div class="col-lg-4">
     
             <div class="card">
-                {% if user.location %} 
+                {% if user.location %}
                 <h6>  <i class="fas fa-map-marker-alt"></i> {{ user.location }}</h6>
                 {% endif %}
                 
-                {% if user.email %}
-                <h6><i class="fas fa-envelope"></i> {{ user.email }}</h6>
+                {% if site.author_email %}
+                <h6><i class="fas fa-envelope"></i> {{ site.author_email }}</h6>
                 {% endif %}
                 
                 {% if user.blog %}
